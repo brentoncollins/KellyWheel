@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"Brenton Collins","email":"brenton.collins@riotinto.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/crm73679E7311844C1EB9DB7D2AEF0B9221.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"crm","displayName":"crm","guid":"crm73679E7311844C1EB9DB7D2AEF0B9221","visualClassName":"Visual","version":"1.0.0","description":"CRM Kelly Wheel","supportUrl":"brenton.collins@riotinto.com","gitHubUrl":""},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}

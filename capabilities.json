@@ -1,0 +1,83 @@
+{    
+    "objects": {},
+   
+    
+    "dataRoles": [
+        {
+            "displayName": "CCFV ID",
+            "name": "category1",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "CCFV Virification Compliance",
+            "name": "category2",
+            "kind": "Grouping"
+        }
+        ,
+        {
+            "displayName": "CCFV Category",
+            "name": "category3",
+            "kind": "Grouping"
+        }
+        ,
+        {
+            "displayName": "Person",
+            "name": "category4",
+            "kind": "Grouping"
+        }
+    ],
+    "tooltips": {
+        "supportedTypes": {
+        "default": true,
+        "canvas": true
+    },
+        "roles": [
+        "tooltips"
+        ]},
+        "dataViewMappings": [
+            {
+                "conditions": [
+                    {
+                        "category1": {
+                            "max": 1
+                        }
+                    }
+                ],
+                "table": {
+                    "rows": {
+                        "select": [
+                            {
+                                "for": {
+                                    "in": "category1"
+                                }
+                                
+                            },
+                            {
+                                "for": {
+                                    "in": "category2"
+                                }
+                            },
+                            {
+                                "for": {
+                                    "in": "category3"
+                                }
+                            },
+                            {
+                                "for": {
+                                    "in": "category4"
+                                }
+                            }
+                            
+                        ]
+                        
+                    }
+                    
+                }
+                
+            }
+            
+        ]
+        ,"supportsLandingPage": true
+        
+    }
+    

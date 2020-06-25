@@ -1,0 +1,27 @@
+export declare const dict: {
+    "CONFINED SPACES": string;
+    "CONTACT WITH ELECTRICITY": string;
+    "COVID-19 (CORONAVIRUS)": string;
+    DROWNING: string;
+    "ENTANGLEMENT AND CRUSHING": string;
+    "EXPOSURE TO HAZARDOUS SUBSTANCES": string;
+    "EXPOSURE TO THERMAL EXTREMES": string;
+    "FALL FROM HEIGHT": string;
+    "FALLING OBJECTS": string;
+    "LIFTING OPERATIONS": string;
+    "RAIL IMPACT ON PERSON": string;
+    "SLOPE FAILURE": string;
+    "UNCONTROLLED RELEASE OF ENERGY": string;
+    "VEHICLE COLLISION OR ROLLOVER": string;
+    "VEHICLE IMPACT ON PERSON": string;
+    "MOORING OPERATIONS": string;
+    "RAIL COLLISION": string;
+    "CONTACT WITH MOLTEN MATERIAL": string;
+    "EXPOSURE TO HAZARDOUS SUBSTANCES (CHRONIC)": string;
+    "UNPLANNED INITIATION OF EXPLOSIVES": string;
+    "UNDERGROUND ROCK FALL": string;
+    "UNDERGROUND HAZARDOUS ATMOSPHERE": string;
+    "UNDERGROUND INRUSH": string;
+    MALARIA: string;
+    "UNDERGROUND HOISTING": string;
+};

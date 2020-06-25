@@ -1,0 +1,31 @@
+import "core-js/stable";
+import "../style/visual.less";
+import powerbi from "powerbi-visuals-api";
+import IVisual = powerbi.extensibility.IVisual;
+import VisualConstructorOptions = powerbi.extensibility.visual.VisualConstructorOptions;
+import VisualUpdateOptions = powerbi.extensibility.visual.VisualUpdateOptions;
+import VisualTooltipDataItem = powerbi.extensibility.VisualTooltipDataItem;
+export declare class Visual implements IVisual {
+    private element;
+    private isLandingPageOn;
+    private LandingPageRemoved;
+    private LandingPage;
+    private host;
+    private svg;
+    private container;
+    private containertest;
+    private arr;
+    private arrDots;
+    private arrSegments;
+    private singleSegment;
+    private categorys;
+    private CenterarrayOffset_dots;
+    private CenterarrayOffset_images;
+    virificationArray: string[];
+    private tooltipServiceWrapper;
+    constructor(options: VisualConstructorOptions);
+    getTooltipData(value: any): VisualTooltipDataItem[];
+    private HandleLandingPage;
+    private createSampleLandingPage;
+    update(options: VisualUpdateOptions): void;
+}
